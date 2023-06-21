@@ -1,0 +1,249 @@
+head {
+    background-color: 76704C;
+    color: #ECE2D6;
+    font-family: 'Heebo', sans-serif;
+    font-size: 40px;
+}
+
+body {
+    background-color: 76704C;
+    color: #ECE2D6;
+    font-family: 'Heebo', sans-serif;
+}
+
+div {
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: column;
+    justify-content: center;
+    align-content: center;
+    font-size: 30px;
+    width: auto;
+}
+
+p {
+    background-color: #545E45;
+    color: #ECE2D6;
+    padding: 10px;
+    border-radius: 20px;
+}
+
+nav ul {
+    list-style: none;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    color: #ECE2D6;
+    margin-top: 10px;
+    background-color: #B55119;
+    padding: 25;
+}
+nav a {
+    text-decoration: none;
+    color: #ECE2D6;
+}
+
+ul a:hover {
+    text-decoration: underline;
+}
+
+h1 {
+    font-size: 50px;
+    justify-content: 40%;
+    margin-left: 15px;
+    background-color: #ECE2D6;
+    color: #B55119;
+}
+
+head {
+    background-color: #ECE2D6;
+}
+
+section {
+    display: inline-flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+   padding: 100;
+    padding-top: 100;
+}
+
+#foto {
+    display: flex;height: 350;
+    width: 350;
+    justify-content:flex-start;
+    flex-direction: row;
+    border-radius: 20%;
+  padding: 11;
+  opacity: 10
+  
+
+}
+
+#prifoto {
+    width: 658;
+    height: 486;
+    justify-content: flex-start;
+    align-content: flex-start;
+   
+    border-color: #B55119;
+}
+ 
+footer{
+    background-color: #545E 45;
+    padding: auto;
+}
+
+.titulo-lista-footer{
+    font-size: 25;
+    text-decoration: underline;
+    padding: 10;
+}
+
+.lista-footer{
+    list-style-type: none;
+    float: right;
+    width: 100%s;
+
+
+    }
+.elemento-lista-footer{
+    padding: 10;
+}
+h1 a{
+    color: #B55119;
+}
+
+title {
+    background-color: #ECE2D6;
+    color: #545E45;
+}
+
+footer{ background-color:#545E45 ;}
+
+h2{
+    font-size: 37px;
+    background-color:#545E45;
+   padding: 10px;
+}
+
+h3{ font-size: 23;
+    text-decoration: underline;
+    color: #ECE2D6;}
+
+a{  text-decoration: none;
+color: #ECE2D6;}
+
+a:hover { text-decoration: underline}
+
+.menubc {background-color:76704C;
+color:#ECE2D6;
+padding: 10px;}
+
+.container{
+    display:flex;
+    flex-flow: column;
+    background-color:#545E45;
+    height: 400px;
+    width: auto;
+    box-shadow: 0 0 20px rgb(0, 0, 0);
+    margin: auto;
+border-radius: 30px;
+padding-bottom: 20px;}
+
+.form{
+    display: flex;
+    flex-flow: column;
+    padding: 30px 80px;
+    color:#ECE2D6;
+    font-size: 20px;
+ margin: 20px;
+
+    
+}
+.form h3{
+    font-size: 30px; 
+}
+main{
+    margin-bottom: 100px;
+}
+.titulo-blog{
+    font-size: 30px;
+}
+
+    
+
+.imgart1{
+    height: 400px;
+   width: 400px;
+   
+}
+.pblog{
+    font-size: 20px;
+}
+
+
+
+.imgart2{ 
+    height:400px ;
+}
+.img-blog{
+    display: flex;
+flex-wrap: wrap;
+flex-direction: row;
+
+}
+
+.horarios{
+    font-size: 20px;
+}
+
+
+@media screen and (max-width: 768px) {
+   
+    h1 {
+        font-size: 30px;
+    }
+
+    h2 {
+        font-size: 25px;
+    }
+
+    #foto {
+        height: 250px;
+        width: 250px;
+    }
+
+    .Horarios {
+        font-size: 16px;
+    }
+}
+
+@media screen and (max-width: 480px) {
+    
+    h1 {
+        font-size: 25px;
+    }
+
+    h2 {
+        font-size: 20px;
+    }
+
+    #foto {
+        height: 150px;
+        width: 150px;
+    }
+
+    .Horarios {
+        font-size: 14px;
+    }
+}
+
+
+
+
+
+
+
+
